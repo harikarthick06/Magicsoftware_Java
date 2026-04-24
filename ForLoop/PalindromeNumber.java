@@ -10,6 +10,7 @@ public class PalindromeNumber {
         int original = n;
         int reverse = 0;
 
+        PalindromeNumber p = new PalindromeNumber();
         for (; n != 0; n = n / 10) {
             int digit = n % 10;
             reverse = reverse * 10 + digit;
